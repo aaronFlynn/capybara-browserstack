@@ -10,7 +10,7 @@ end
 task :default => :single
 
 Cucumber::Rake::Task.new(:local) do |task|
-  task.cucumber_opts = ['--format=pretty', 'features/local.feature', 'CONFIG_NAME=local']
+  task.cucumber_opts = ['--format=pretty', 'features/create_llc.feature', 'CONFIG_NAME=local']
 end
 
 task :parallel do |t, args|

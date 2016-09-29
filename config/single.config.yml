@@ -1,6 +1,6 @@
 server: "hub-cloud.browserstack.com"
-user: "BROWSERSTACK_USERNAME"
-key: "BROWSERSTACK_ACCESS_KEY"
+user: "aaronflynn1"
+key: "8Wr7LhS1K5cqwqyaKnpV"
 
 common_caps:
   "build": "capybara-browserstack"
@@ -8,4 +8,6 @@ common_caps:
 
 browser_caps:
   -
-    "browser": "chrome"
+    "browser": "firefox"
+    "browser_version" : "48.0"
+    "os" : "Windows"
